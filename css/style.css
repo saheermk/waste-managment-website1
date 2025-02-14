@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background: #fdfbfb;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li {
+    margin-right: 24px;
+    border-right: 1px solid #ccc;
+    padding-right: 8px;
+}
+header li a{
+    font-size: 18px;
+    
+}
+header li a:hover{
+    color: #ccc;
+}
+main #spotlight {
+    height: 100vh;
+}
+main #spotlight .top{
+    height: 100%;
+    max-height: 60vh;
+    background-image: url(../images/spotlight-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+main #spotlight .top .wrapper  {
+    height: 100%;
+    display: block;
+    position: relative;
+    top: 20%;
+}
+main #spotlight .top .impact ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+main #spotlight .top h1 {
+    font-size: 56px;
+    font-weight: 700;  
+}
+
+main #spotlight .top i {
+    font-size: 34px;
+    padding: 8px;
+    border-radius: 50%;
+    color: #fffb21;
+    font-weight: 700;  
+
+}
+main #spotlight .top .impact h1{
+    font-size: 48px;
+    
+}
+main #spotlight .top p {
+    font-size: 18px;
+    font-weight: 700;  
+
+}
+main #spotlight .bottom {
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    margin:  80px auto auto;
+    text-align: center;
+}
+main #spotlight .bottom p {
+    font-size: 24px;
+    display: flex;
+    margin: auto 16px;
+    
+}
+
+main #details {
+    width: 100%;
+    display: flex;
+    
+}
+main #details ul {
+    display: inline-flex;
+}
+main #details li {
+    position: relative;
+    width: 200px; 
+    margin: 10px;
+    text-align: center;
+}
+main #details li h1 {
+    text-align: center;
+}
+main #details li p {
+    font-size: 18px;
+}
+main #details li button {
+    background: #f5f114;
+    padding:16px 20px ;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+main #details li button::after {
+    content: " ➤";
+}

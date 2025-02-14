@@ -1,0 +1,37 @@
+[
+    {
+    "title": "V-Collect",
+    "description": "SWaCH collects and recycles your old electronic items, furniture, bicycles, kitchen utensils, etc.",
+    "image": "images/V-Collect-.png"
+    },
+    {
+    "title": "Recycling Trail",
+    "description": "SWaCH conducts field visits to learn how the city handles its garbage on a day-to-day basis.",
+    "image": "images/trail.png"
+    },
+    {
+    "title": "Red Dot Awareness",
+    "description": "SWaCH’s Red Dot awareness program targets the safe disposal of sanitary pads and diapers.",
+    "image": "images/red-dot.png"
+    },
+    {
+    "title": "Composting Services",
+    "description": "SWaCH provides expertise and materials needed to install composting infrastructure in both residential and commercial spaces.",
+    "image": "images/comp.png"
+    },
+    {
+    "title": "Waste Collection At Events",
+    "description": "SWaCH teams manage waste at events including marathons, conferences and melas.",
+    "image": "images/event.png"
+    },
+    {
+    "title": "E-Collect",
+    "description": "SWaCH enables organisations to meet regulatory requirements for the safe disposal of e-waste.",
+    "image": "images/ewaste.png"
+    },
+    {
+    "title": "MLP Collection",
+    "description": "SWaCH is partnering with ITC & Pune Municipal Corporation to collect and recycle MLP waste.",
+    "image": "images/ewaste.png"
+    }
+]
